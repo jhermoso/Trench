@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\30-Framework\Trench.Fwk.Domain.Contracts\Trench.Fwk.Domain.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\30-Framework\Trench.Fwk.Domain.Data\Trench.Fwk.Domain.Data.csproj" />
+    <ProjectReference Include="..\..\..\30-Framework\Trench.Fwk.Domain\Trench.Fwk.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

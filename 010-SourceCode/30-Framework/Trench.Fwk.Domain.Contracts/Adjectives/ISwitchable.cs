@@ -1,4 +1,5 @@
-﻿/* 
+﻿
+/* 
  * Copyright [2023] [Javier Hermoso Blanco]
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,7 +17,12 @@
 
 namespace Trench.Fwk.Domain.Contracts
 {
-    public interface IValidationError
+    public interface ISwitchable
     {
+        bool IsActive { get; }
+
+        public void Activate();
+
+        public void Deactivate();
     }
 }

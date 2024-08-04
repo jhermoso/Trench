@@ -7,8 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="BaseValueObjects\Switcher.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Trench.Fwk.Domain.Contracts\Trench.Fwk.Domain.Contracts.csproj" />
     <ProjectReference Include="..\Trench.Fwk.Domain.Data\Trench.Fwk.Domain.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="BaseValueObjects\" />
+    <Folder Include="Factories\" />
   </ItemGroup>
 
 </Project>

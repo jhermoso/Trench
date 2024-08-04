@@ -6,4 +6,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="IIdentity.cs" />
+    <Compile Remove="IValidationError.cs" />
+    <Compile Remove="IValidationResult.cs" />
+    <Compile Remove="Sustantives\UserGuid.cs" />
+    <Compile Remove="Sustantives\UserId.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Verbs\" />
+  </ItemGroup>
+
 </Project>

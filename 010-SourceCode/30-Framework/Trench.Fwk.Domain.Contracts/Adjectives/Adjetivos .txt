@@ -1,0 +1,11 @@
+﻿IBackupable
+Iconfigurable (settings)
+IPluralizable
+IValidatable
+Icacheable
+Ilogable
+Itraceable
+Imonitroizable
+INamed
+ISwitchable
+
